@@ -1,5 +1,6 @@
-# Excel-
-由于最近经常处理表格的增添删改工作，所以写一个简单的程序辅助工作
+# Excel
+##由于最近经常处理表格的增添删改工作，所以写一个简单的程序辅助工作
+```
 import xlrd
 import xlwt
 
@@ -40,3 +41,4 @@ for stu in b:
         col+=1
     row+=1
 book.save('stu_1.xls')#保存到当前目录下
+```
